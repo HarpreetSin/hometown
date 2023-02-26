@@ -132,7 +132,7 @@ body {
 } 
 
 .hr {
-    width: 21px;
+    width: 35px;
     height: 21px;
     border-radius: 150px;
     position: absolute;
@@ -156,7 +156,7 @@ body {
 
 .pr {
     
-    width: 21px;
+    width: 45px;
     height: 21px;
     border-radius: 150px;
     position: absolute;
@@ -178,7 +178,7 @@ body {
 }
 
 .it {
-    width: 21px;
+    width: 35px;
     height: 21px;
     border-radius: 150px;
     position: absolute;
