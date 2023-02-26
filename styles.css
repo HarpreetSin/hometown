@@ -1,0 +1,236 @@
+body {
+    margin: auto;
+}
+
+.ist {
+    background-image: url(mainpic.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    padding-top: 35px;
+    filter: brightness(100%);
+    animation-name: changes;
+    animation-duration: 5s;
+}
+
+@keyframes changes {
+    0%   {
+        filter: brightness(0%);
+        height: 100px;
+    }
+
+    100% {
+        filter: brightness(100%);
+        height: 700px;
+    }
+  }
+
+  .visit {
+    height: 95px;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .name {
+    height: 95px;
+    background-size: cover;
+    text-align: center;
+  }
+
+  word {
+    font-size: 5rem;
+    color: #8AC7B6;
+  }
+
+.container {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+    animation-name: visibility;
+    animation-duration: 5s;
+    padding-bottom: 50px;
+}
+
+@keyframes visibility {
+    0% {
+        height: 1550px;
+        background-color: white;
+    }
+    100% {
+        height: 550px;
+    }
+}
+
+.container p {
+    background:linear-gradient(antiquewhite,white);
+}
+
+.golden {
+    position: absolute;
+    z-index: 1;
+    margin-top: 400px;
+    margin-right: 870px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8AC7B6;
+    text-shadow: 0 0 0.5px black;
+}
+
+.culture {
+    position: absolute;
+    z-index: 1;
+    margin-top: 400px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8AC7B6;
+    text-shadow: 0 0 0.5px black;
+}
+
+
+.food {
+    position: absolute;
+    z-index: 1;
+    margin-top: 400px;
+    margin-left: 870px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8AC7B6;
+    text-shadow: 0 0 0.5px black;
+}
+
+
+.item {
+    width: 250px;
+    height: 250px;
+    border: transparent;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.item #images {
+        border-radius: 150px;
+        width: 250px;
+        height: 250px;
+        margin-top: 2px;
+}
+
+.item #icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 150px;
+} 
+
+.hr {
+    width: 21px;
+    height: 21px;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 1;
+    left: 295px;
+    top: 980px;
+}
+
+.hr:hover {
+    display: block;
+    height: 300px;
+    width: 450px;
+    border-radius: 0;
+    left: 250px;
+    top: 850px;
+    transition: 0.5s;
+    background-image: url(https://i.pinimg.com/originals/f4/21/36/f42136b05c0fe33cda3bbc2aef059738.gif);
+    background-size: cover;
+}
+
+
+.pr {
+    
+    width: 21px;
+    height: 21px;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 1;
+    left: 726px;
+    top: 980px;
+}
+
+.pr:hover {
+    display: block;
+    height: 300px;
+    width: 450px;
+    border-radius: 0;
+    left: 600px;
+    top: 850px;
+    transition: 0.5s;
+    background-image: url(https://i.gifer.com/embedded/download/Avdx.gif);
+    background-size: cover;
+}
+
+.it {
+    width: 21px;
+    height: 21px;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 1;
+    right: 295px;
+    top: 980px;   
+}
+
+.it:hover {
+    display: block;
+    height: 300px;
+    width: 450px;
+    border-radius: 0;
+    right: 250px;
+    top: 850px;
+    transition: 0.5s;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5cef7b136434550001a53d10/1616329425166-57SD9OEWP8RLR7G0TJF2/kulfi2.gif?format=1000w);
+    background-size: cover;
+}
+
+.card {
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    color: #8AC7B6;
+    background-color: white;
+    padding: 20px;
+}
+
+.mypic img {
+    width: 200px;
+    height: 250px;
+    border-radius: 200px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0 0 0.5 black;
+}
+
+.coloring {
+    background-color: #8AC7B6;
+    padding: 50px;
+}
